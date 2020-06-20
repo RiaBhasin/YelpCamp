@@ -19,7 +19,7 @@ app.use(flash());
 
 SeedDb();
 
-mongoose.connect("mongodb://localhost/yelpcamp", {
+mongoose.connect("mongodb+srv://riabhasin:Ria@1105@cluster0-inyeu.mongodb.net/<dbname>?retryWrites=true&w=majority", {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 	useFindAndModify: false
