@@ -17,7 +17,7 @@ var commentRoutes = require("./routes/comments"),
 	authRoutes = require("./routes/index");
 app.use(flash());
 
-SeedDb();
+// SeedDb();
 
 mongoose.connect("mongodb+srv://riabhasin:Ria@1105@cluster0-inyeu.mongodb.net/<dbname>?retryWrites=true&w=majority", {
 	useNewUrlParser: true,
